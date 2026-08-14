@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 20px;
+            color: #555;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            width: 200px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button {
+            padding: 10px 25px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .on {
+            background-color: green;
+        }
+
+        .off {
+            background-color: red;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="valens1.png">Hello Va</a>
+
+    <h1>Valens is Light</h1>
+
+    <p>Atsa itara ukorsheje button click <b>on</b> ushaka kwatsa and <b>off</b> ushaka kuzimya.</p>
+
+    <button class="on"
+        onclick="document.getElementById('myImage').src='va.gif'">
+        ON
+    </button>
+
+    <img id="myImage" src="v.gif">
+
+    <button class="off"
+        onclick="document.getElementById('myImage').src='v.gif'">
+        OFF
+    </button>
+
+</body>
+</html>
